@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <record id="crm_sequence_no" model="ir.sequence">
+        <field name="name">crm sequence</field>
+        <field name="code">crm.lead</field>
+        <field name="prefix">CS/</field>
+        <field eval="1" name="number_next"/>
+        <field eval="1" name="number_increment"/>
+        <field name="padding">5</field>
+    </record>
+
+</odoo>
